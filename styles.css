@@ -15,6 +15,7 @@ html {
     height: 290px;
     margin: 80px auto;
     padding: 90px 20px 0 20px;
+    position: relative;
 }  
 
 /*keys container styles */
@@ -43,4 +44,12 @@ html {
     left: -18px;
     width: 32px;
     height: 100px;
-  }
+}
+
+/*logo styling */
+.logo {
+    position: absolute;
+    top: -35px;
+    left: -10px;
+    width: 150px;
+}
