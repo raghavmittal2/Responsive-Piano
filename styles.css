@@ -25,6 +25,7 @@ html {
     width: 949px;
     height: 180px;
     padding-left: 2px;
+    overflow: hidden;
 }
 
 /*individual key styles*/
@@ -55,4 +56,34 @@ html {
     top: -35px;
     left: -10px;
     width: 150px;
+}
+
+@media screen and (max-width: 710px) {
+    #piano {
+        width: 358px;
+    }
+
+    .keys {
+        width: 318px;
+    }
+
+    .logo {
+        width: 130px;
+        top: -25px;
+    }
+}
+
+@media screen and (min-width: 710px) and (max-width: 1016px) {
+    #piano {
+        width: 674px;
+    }
+
+    .keys {
+        width: 632px;
+    }
+
+    .logo {
+        width: 140px;
+        top: -30px;
+    }
 }
